@@ -1,0 +1,205 @@
+/* Principal */
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    color: #616161;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+div {
+    margin-bottom: 10px;
+}
+
+/* Botones: Titulos desplegables */
+button {
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: normal;
+    display: block;
+    padding: 0px;
+}
+.hideExpC {
+    display: none;}
+.showExpC {
+    display: block;
+}
+.hideEduC {
+    display: none;}
+.showEduC {
+    display: block;
+}
+.hideIdiC {
+    display: none;}
+.showIdiC {
+    display: block;
+}
+.hideHabC {
+    display: none;}
+.showHabC {
+    display: block;
+}
+
+/* ID Titulos + detalles internos */
+#titulo {
+    width: 50%;
+    float: left;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+#datosPersonales {
+    width: 50%;
+    float: left;
+    font-size: 1.2rem;
+    margin-top: 25px;
+}
+    .dataTitle {
+        width: 100%;
+        font-weight: 600;
+    }
+    .dataContent {
+        float: right;
+    }
+    #datosPersonales p {
+        width: 100%;
+        text-align: justify;
+    }
+
+#conocimientosPrevios {
+    float: left;
+    width: 100%;
+    font-size: 1.1em;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+#idiomas {
+    float: left;
+    width: 45%;
+    font-size: 1.1em;
+    margin-top: 0px;
+}
+#habilidades {
+    float: right;
+    width: 50%;
+    font-size: 1.1em;
+}
+
+/* Titulos */
+h1 {
+    color: #3176e0;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 1.5em;
+    color: #3176e0;
+    border-bottom: 1.5px solid #3176e0;
+    margin-bottom: 5px;
+}
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+h5 {
+    font-size: 1.3em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Textos */
+a {
+    margin-left: 0px;
+    font-style: oblique;
+    font-weight: normal;
+}
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 50%;
+}
+p a {
+    margin-bottom: 8px;
+}
+img {
+    width: 150px;
+    height: 245px;
+}
+i {
+    color: #3176e0;
+}
+
+/* Disposición: Medium (tablets y laptos pequeñas) */
+@media only screen and (min-width:935px) and (max-width:1200px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+}
+
+/* Disposición: Small (celulares) */
+@media only screen and (max-width:934px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    div {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #titulo {
+        width: 100%;
+        float: left;
+        font-size: 0.9rem; 
+    }
+    #objetivoProfesional {
+        width: 100%;
+        float: left;
+        margin-top: 25px;
+        font-size: 1.2rem; 
+    }
+    #datosPersonales {
+        width: 100%;
+        float: left;
+        margin-top: 25px;
+        font-size: 0.9rem; 
+    }
+    #conocimientosPrevios {
+        font-size: 0.9rem; 
+    }
+    #idiomas {
+        float: left;
+        width: 100%;
+        font-size: 0.9rem; 
+    }
+    
+    #habilidades {
+        float: right;
+        width: 100%;
+        font-size: 0.9rem; 
+    }
+    ul {
+        padding-left: 5%;
+    }
+
+    p {
+        width: 80%;
+    }
+    
+    img {
+        width: 128px;
+        height: 202px;
+    }
+}
